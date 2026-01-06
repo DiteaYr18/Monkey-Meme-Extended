@@ -1,5 +1,3 @@
-# Monkey-Meme-Extended
-A Python &amp; TensorFlow-based Computer Vision project that detects facial expressions in real-time using a Teachable Machine Learning model. The program responds to your facial expressions by automatically generating appropriate monkey memes. 🐵📸 #Python #OpenCV #MachineLearning
 🐵 Monkey Meme - AI Expression DetectorProgram Computer Vision berbasis Python yang menggunakan Teachable Machine (TensorFlow) untuk mendeteksi ekspresi wajah pengguna melalui webcam secara real-time dan memunculkan gambar reaksi (meme) yang sesuai.📋 FiturMendeteksi ekspresi wajah secara langsung lewat Webcam.Menampilkan gambar reaksi (.jpg) sesuai prediksi model.Menggunakan model .h5 dari Google Teachable Machine.📂 Struktur FilePastikan semua file ini berada dalam satu folder yang sama (disarankan di C:\cv_project untuk pengguna Windows):PlaintextC:\cv_project\
 │
 ├── main.py                # Script utama Python (atau Monkey Meme.py)
