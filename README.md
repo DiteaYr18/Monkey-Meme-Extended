@@ -9,7 +9,9 @@
 ├── Monyet2.jpg            # Gambar Reaksi Class 2
 ├── Ragebait.jpg           # Gambar Reaksi Class 3
 └── Kaget.jpg              # Gambar Reaksi Class 4
+
 🛠️ Persyaratan SistemPython 3.9 - 3.12Webcam yang berfungsi
+
 🚀 Cara Instalasi (Windows)Karena TensorFlow memiliki struktur file yang dalam, sangat disarankan menggunakan Virtual Environment di folder dengan alamat pendek (seperti di Drive C) untuk menghindari error "Long Path".Buat Folder Proyek:Buka Terminal / PowerShell dan jalankan:PowerShellcd C:\
 mkdir cv_project
 cd cv_project
@@ -19,13 +21,4 @@ Aktifkan Environment:PowerShell.\venv\Scripts\Activate
 Install Library:PowerShellpip install opencv-python tensorflow numpy
 Pindahkan File:Copy file script Python Anda, keras_model.h5, dan semua gambar
 jpg ke dalam folder C:\cv_projec.
-▶️ Cara MenjalankanPastikan terminal masih berada di folder proyek dan virtual environment aktif (venv).Jalankan perintah:PowerShellpython main.py
-(Ganti main.py dengan nama file Anda, misal Monkey Meme.py jika belum diganti).
-🎮 KontrolESC: Tekan tombol Esc pada keyboard untuk menutup program dan mematikan kamera.
-🤖 Daftar Kelas (Prediksi)Program ini dikonfigurasi untuk mendeteksi 5 gerakan:IndexEkspresiFile Gambar Muncul
-0 ManyunManyun.jpg
-1 Monyet 1Monyet1.jpg
-2 Monyet 2Monyet2.jpg
-3 RagebaitRagebait.jpg
-4 KagetKaget.jpg
-⚠️ TroubleshootingJika muncul error "ModuleNotFoundError" atau "Errno 2 No such file":Pastikan Anda sudah mengaktifkan venv sebelum menjalankan program.Pastikan folder proyek tidak terlalu dalam (jangan taruh di dalam folder Downloads yang panjang, pindahkan ke C:\cv_project).
+
